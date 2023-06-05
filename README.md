@@ -14,7 +14,7 @@ The desired speed was the reference input for the controller. The ouputs by the 
 
 PID controller is used to control the longitudinal vehicle speed. The reference input is the desired speed (target speed), the controller basically tries to minimize the difference between the current speed and the target speed.
 
-There are Proportional, Integral and Derivative components in a PID controller. K_P K_I and K_D are the corresponding gains.
+There are Proportional, Integral and Derivative components in a PID controller. K_P, K_I and K_D are the corresponding gains.
 
 The prportional controller multiplies the velocity error (difference in the actual and target velocities) by the proportional gain. This makes sure that the correction of velocity happens in the right direction. An issue with using only a proportional controller is that, when the errors become too small, the corrections become insignificant for any value of K_P, failing to get a zero steady state error.
 
