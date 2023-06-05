@@ -10,7 +10,12 @@ A simple PID controller was implemented for the longitudinal control of the vehi
 The desired speed was the reference input for the controller. The ouputs by the controller were throllle and brake positions. Vehicle is designed to perform longitudinal as well as lateral control (longitudinal speed and steering input). 
 
 1. Vehicle Longitudinal Control Mechanism
+PID controller is used to control the longitudinal vehicle speed. The reference input is the desired speed (target speed), the controller basically tries to minimize the difference between the current speed and the target speed.
+
+There are Proportional, Integral and Derivative components in a PID controller. Kp K_D
 ![PID long control](https://github.com/AmarchandC/Introduction-to-Self-Driving-Cars-Self-Driving-Cars-Vehicle-Control/assets/82858194/328596e6-9eec-4324-a1b3-d869e13f0539)
+
+
 
 
 
