@@ -7,6 +7,11 @@ Objective: To write and implement a controller for the CARLA simulator. The goal
 #Part 1: Longitudinal Vehicle control.
 
 A simple PID controller was implemented for the longitudinal control of the vehicle. 
-The desired speed was the reference input for the controller. The ouputs by the controller were throllle and brake positions.
+The desired speed was the reference input for the controller. The ouputs by the controller were throllle and brake positions. Vehicle is designed to perform longitudinal as well as lateral control (longitudinal speed and steering input). 
+
+1. Vehicle Longitudinal Control Mechanism
+
+
+
 
 
