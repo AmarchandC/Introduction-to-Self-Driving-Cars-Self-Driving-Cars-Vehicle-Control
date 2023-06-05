@@ -9,7 +9,8 @@ Objective: To write and implement a controller for the CARLA simulator. The goal
 A simple PID controller was implemented for the longitudinal control of the vehicle. 
 The desired speed was the reference input for the controller. The ouputs by the controller were throllle and brake positions. Vehicle is designed to perform longitudinal as well as lateral control (longitudinal speed and steering input). 
 
-1. Vehicle Longitudinal Control Mechanism
+**1. Vehicle Longitudinal Control Mechanism**
+
 PID controller is used to control the longitudinal vehicle speed. The reference input is the desired speed (target speed), the controller basically tries to minimize the difference between the current speed and the target speed.
 
 There are Proportional, Integral and Derivative components in a PID controller. K_P K_I and K_D are the corresponding gains.
